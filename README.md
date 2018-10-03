@@ -25,6 +25,7 @@ python3 checksum.py --prod={file1} --resp={file2} --out={output_file}
 ```
 
 Running this command will generate an output file comparing both files named resultados.txt, opening this file will give information about which files are diferent or missing in one file or another.
+Running this command will generate an output file comparing both files named resultados.txt, opening this file will give information about which files are diferent or missing in one file or another.
 
 ```
 [-1-] = the file is only present in file1
