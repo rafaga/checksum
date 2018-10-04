@@ -24,13 +24,14 @@ before you can use this tool you need to modify two variables in `checksum.py` n
 python3 checksum.py --prod={file1} --resp={file2} --out={output_file}
 ```
 
-Running this command will generate an output file comparing both files named resultados.txt, opening this file will give information about which files are diferent or missing in one file or another.
-Running this command will generate an output file comparing both files named resultados.txt, opening this file will give information about which files are diferent or missing in one file or another.
+Running this command will generate an output file comparing both files named `results.txt`, opening this file will give information about which files are diferent or missing in one file or another.
+
+The output files describes only the differences, and use a nomenclature to define what kind of difference has been detected.
 
 ```
 [-1-] = the file is only present in file1
 [-2-] = the file is only present in file2
-[=/=] = the file is present in both files but the content in both files are different.
+[=/=] = the file is present in both files, but the content is different.
 ```
 ### Parameters
 
@@ -43,5 +44,5 @@ Running this command will generate an output file comparing both files named res
 ### TO-DO
 
  * Remove the requeriment to edit `token1` and `token2` variables.
- * Transate all the commentaries in Spanich to English.
+ * Transate all the commentaries from Spanish to English.
  * Improve the speed of the tool.
