@@ -38,11 +38,13 @@ The output files describes only the differences, and use a nomenclature to defin
 ```
 	--file1 : Specify the first SHASUM filename to compare
 	--file2 : Specify the second SHASUM filename to compare
-	--out  : Specify a custom output filename
+	--prefix1 : the directory prefix used to compare files structures in file1
+	--prefix2 : the directory prefix used to compare files structures in file2
+	--out : Specify a custom output filename (Optional)
 ```
 
 ### TO-DO
 
- * Remove the requeriment to edit `token1` and `token2` variables.
- * Transate all the commentaries from Spanish to English.
+ * Remove the requeriment to edit `token1` and `token2` variables. *Done*
+ * Transate all the commentaries from Spanish to English. *Done*
  * Improve the speed of the tool.
