@@ -3,8 +3,7 @@ An utility to quick compare shasum output files from directories
 
 ## Dependencies
 
- * python 3
- * argparse library
+ * Python >= 3.2
 
 ### Generating SHASUM files
 
