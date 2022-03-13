@@ -28,8 +28,8 @@ Running this command will generate an output file comparing both files named `re
 The output files describes only the differences, and use a nomenclature to define what kind of difference has been detected.
 
 ```
-[-1-] = the file is only present in file1
-[-2-] = the file is only present in file2
+[-1-] = the file is only present in directory 1
+[-2-] = the file is only present in directory 2
 [=/=] = the file is present in both files, but the content is different.
 ```
 ### Parameters
