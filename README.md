@@ -20,7 +20,7 @@ This command will generate a file using the algorithm SHA256 to compute recursiv
 Syntax
 
 ```Bash
-python3 checksum.py --prod={file1} --resp={file2} --prefix1={prefix_from_file1} --prefix2={prefix_from_file2} --out={output_file}
+python3 checksum.py --prod={checksum_file_for_directory_1} --resp={checksum_file_for_directory_2} --prefix1={prefix_from_prod_file} --prefix2={prefix_from_resp_file} --out={output_file}
 ```
 
 Running this command will generate an output file comparing both files named `results.txt`, opening this file will give information about which files are diferent or missing in one file or another.
